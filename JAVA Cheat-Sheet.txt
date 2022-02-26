@@ -1,0 +1,286 @@
+	
+
+String
+
+System.out.println("Tik Tok");
+String lastname = "tokTik";
+
+
+
+System.out.println("this __ what you __ do!");
+String ded = "is";
+String beb = "can";
+System.out.println("this " + ded + " what you " + beb + " do!");
+
+
+
+\t-(gap), \”\”, \n-(new line), \\
+
+
+System.out.println(" Crazy \t can \"be\" really \t. ");
+String word1 = "People";
+String word2 = "serious";
+System.out.println("Crazy " + word1 + " can be really " + word2 + ".");
+
+
+
+System.out.println("This \n is \n what \n you \n need \n !");
+System.out.println("red\tt-shirt\tis\tmine.");
+System.out.print("Stop\t\"playing\"\twith\nME \\.");
+
+
+
+
+Scanner
+
+
+Scanner scan = new Scanner(System.in);
+System.out.println("Enter Bozorho:");
+String bozorho  = scan.nextLine();
+
+Scanner scan = new Scanner(System.in);
+System.out.println("Champs:");
+String Chapms = scan.nextLine();
+
+System.out.println("loik");
+String Loik = scan.nextLine();
+
+System.out.println("Sohib");
+String Sohib = scan.nextLine();
+
+System.out.println("Aziz");
+String Aziz = scan.nextLine();
+
+System.out.println("Here are your champs!");
+System.out.println("\"loik\"");
+System.out.println("Sohib \"whats\" " );
+System.out.println("Aziz \\");
+
+2 expl
+
+Scanner scan = new Scanner(System.in);
+System.out.println("What is your name? ");
+String name = scan.next();
+System.out.println("Nice to meet you, " + name);
+
+Scanner tik = new Scanner(System.in);
+System.out.println("How old are you?");
+String age = scan.next();
+System.out.println("That's good to know");
+
+Scanner dos = new Scanner(System.in);
+System.out.println("Do you Sohib?");
+String friend = scan.next();
+System.out.println("He is awesome man");
+
+
+int
+
+
+int a = 10;
+int b = 35;
+int c = 5;
+int g = 250;
+int r = 1401;
+
+System.out.println(r - c - g);
+
+
+int, long, float, double
+
+int q = 11;
+long a = 10l;
+float v = 50.5f;
+double f = 100.5;
+
+System.out.println(a);
+System.out.println(f);
+System.out.println(q);
+System.out.println(v);
+System.out.print("Total:\t");
+System.out.println(f - v + a * q);
+
+FLOAT
+float a = 5.5f;
+float s = 10.5f;
+float result = (a + s);
+
+System.out.println("Result:" + result);
+
+DOUBLE
+double a = 5.5;
+double s = 10.5;
+double result = (a + s);
+
+System.out.println("Result:" + result);
+
+
+
+
+BOOLEAN
+
+int o = 5;
+int g = 10;
+boolean s = (o == 5);
+boolean e = (g == 9);
+
+  System.out.println(s);
+  System.out.println(e);
+
+
+int same = 45;
+int rain = 75;
+boolean save = (same == 45);
+boolean brain = (rain == 75);
+System.out.println(save);
+System.out.println(brain);
+
+
+  boolean gzasht = true;
+   boolean nagzasht = false;
+
+if (nagzasht) {
+    System.out.println("this is cool, right1?");
+}
+
+   if (nagzasht) {
+       System.out.println("this is cool, right2?");
+   }
+
+   if (gzasht) {
+       System.out.println("this is cool, right3?");
+   }
+
+
+
+BYTE and SHORT
+
+byte myCars = 2;
+byte frCars = 4;
+byte garage = 50;
+byte inMarket = 61;
+byte result1 = (byte) (myCars + frCars + garage - inMarket);
+System.out.println("Result1:" + result1);
+
+
+short e = 500;
+short r = 250;
+short result2 = (short) (e + r);
+System.out.println("Result2:" + result2);
+
+
+
+CHAR – ‘A’, 65, ‘\u0041’ – these are the same character in the JAVA
+char c1 = 'A'; 
+char c2 = 65;
+char c3 = '\u0041';
+
+System.out.println(c1);
+System.out.println(c2);
+System.out.println(c3);
+
+
+if you try it with INT, you have same result.
+
+int code1 = 'A';
+int code2 = '\u0041';
+int code3 = 65;
+
+System.out.println(code1);
+System.out.println(code2);
+System.out.println(code3);
+
+
+Increment ++ (2nd + is just 1:
+
+int far = 2;
+far++;
+
+System.out.println(far);
+
+Resul: 3
+
+
+Decrement -- (2nd - is just 1:
+
+int far = 2;
+far--;
+
+System.out.println(far);
+
+Resul: 1
+
+
+__-_____-------------____
+
+int far = 100;
+far = far + 5;
+float cat = 5.5f;
+cat = cat + 2.5f;
+double dog = 120.50;
+dog = dog + 100.5;
+double result = (far + cat + dog);
+
+System.out.println("Result: " + result);
+
+
+
+string concatenation – соединение строк:
+
+String today = "Today is Monday";
+String tomorrow = "Tomorrow is Tuesday";
+
+System.out.println("What day is it today? " + today);
+System.out.println("What day is it tomorrow? " + tomorrow);
+
+
+Also we can use “CONCAT” string concatenation. Check the expl:
+
+String bestDay = ("Friday");
+String expl1 = " is the best day of the week!.";
+String expl2 = " has a blessed hour.";
+System.out.println(bestDay.concat(expl1));
+System.out.println(bestDay.concat(expl2));
+
+
+
+MATH – Math.max, and Math.min:
+
+int e = Math.max(4, 1);
+System.out.println(e);
+
+int e = Math.min(4, 1);
+System.out.println(e);
+
+
+CONSTANT: - final
+
+int age = 10;
+final int DAS = 15;
+
+age = 10;
+System.out.println(age);
+System.out.println(DAS);
+
+
+
+METHODS:
+
+public class TEST6 {
+    public static void main(String[] args) {
+        int vool = 15;
+        int roof = 150;
+        int result = sum(vool, roof);
+        System.out.println(result);
+
+
+    }
+
+    public static int sum(int vool, int roof) {
+        return vool + roof;
+
+    }
+}
+
+
+

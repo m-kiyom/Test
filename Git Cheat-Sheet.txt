@@ -1,0 +1,19 @@
+Git Pwd – to check where we are
+Ls – to see what’s inside the folder
+Ls –L – to show the list items inside the folder
+Git init – to create an .git repository 
+Git status – to see what branch you are in and to see tracked files
+git add (add the name of the doc to add for tracking)
+git add . – to add all docs
+git rm --cached (doc’s name) – to untrack it
+git restore (doc’s name) – restore the doc
+git commit -m '1st commit' – 
+git branch – to see branches
+git branch (branch name) – to add branch
+git branch –D (branch name) – to delete
+git checkout (Br name) – to switch to the other branch
+git checkout –b (br name) – to create a new branch and move to it right away
+git merge (br name) – to combine 
+git remote set-url origin git@github.com: m-kiyom/Test.git – if you rename your GITHUB account name this how you change it
+git remote –v – to check if your account connected
+git branch -m <oldname> <newname> - If you want to rename a branch while pointed to any branch 
